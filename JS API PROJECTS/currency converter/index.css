@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(102, 102, 237);
+
+}
+
+.container{
+    height: 50%;
+    width: 40%;
+    /* border: 1px solid black; */
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#Headng{
+padding-bottom: 10px;
+}
+
+.input{
+    margin-block: 5px;
+    margin-bottom: 13px;
+}
+
+#input-tag{
+    font-size: larger;
+}
+
+input{
+    font-size: large;
+    border-radius: 6px;
+    border: 1px solid gray;
+    outline: none;
+    width: 70%;
+    height: 45px;
+    padding: 6px;
+}
+
+.converter-Body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 70px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+
+}
+
+#Exchange{
+    font-size: x-large;
+}
+
+.from p,.to p{
+    font-size: larger;
+}
+
+.select{
+    font-size: larger;
+    width: 130px;
+    border-radius: 6px;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+#result{
+    font-size: larger;
+    margin-bottom: 22px;
+}
+
+button{
+    align-content: center;
+    height: 45px;
+    width: 190px;
+    border-radius: 6px;
+    font-size: larger;
+    border: 1px solid grey;
+    background-color: rgb(86, 86, 235);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(62, 62, 235);
+}
+
+.from-select,.to-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 7px;
+}
+
+.from-select #from-icon,.to-select #To-icon{
+    max-width: 35px;
+}

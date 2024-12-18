@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator App</title>
+    <link rel="stylesheet" href="translator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+<div class="container">
+        <div class="input-box">
+            <textarea placeholder="Enter Text" id="input1" class="input"></textarea>
+            <textarea placeholder="Translation" class="input" id="input2" readonly disabled></textarea>
+        </div>
+
+    <div class="Translator-body"> 
+        <div class="from-body">
+            <div class="speaker" id="from-speaker">
+                <i class="fa-solid fa-volume-high" id="FS"></i>
+            </div>
+            <div class="clipboard" >
+                <i class="fa-regular fa-clipboard" id="fromCopy"></i>
+            </div>
+            <select class="select"></select>
+            </div>
+
+        <div class="exchange">
+            <i class="fa-solid fa-right-left" id="exchange"></i>
+        </div>
+
+        <div class="To-body">
+            <select class="select"></select>
+            <div class="speaker" >
+                <i class="fa-solid fa-volume-high" id="TS"></i>
+            </div>
+            <div class="clipboard">
+                <i class="fa-regular fa-clipboard" id="toCopy" ></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="button">
+        <button id="btn">Translate</button>
+    </div>
+    
+</div>
+
+<script src="translator.js"></script>
+</body>
+</html>

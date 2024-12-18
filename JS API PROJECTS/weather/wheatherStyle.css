@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(177, 185, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    max-height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-block: 20%;
+    border-radius: 6px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding-inline: 20px;
+
+}
+
+.header input{
+    width: 90%;
+    background-color: rgb(219, 242, 235);
+    color: black;
+    text-transform: capitalize;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 3px;
+
+}
+
+.header input::placeholder{
+    color: black;
+}
+
+.header input,button{
+    border: none;
+}
+
+.header button{
+    background-color: rgb(215, 246, 236);
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+
+.header button:hover{
+    background-color: rgb(140, 247, 211);
+
+}
+
+.weather-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 10px;
+}
+
+#icon{
+    height: 200px;
+}
+
+.weather{
+    display: none;
+    flex-direction: column;
+}
+
+.wheather-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wheather-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding-inline: 30px;
+}
+
+.wheather-detail i{
+    font-size: 35px;
+    margin-right: 7px;
+}
+
+#humid{
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#wind{
+    margin-left: 16px;
+    padding: 5px;
+
+}
+
+#humid,#wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

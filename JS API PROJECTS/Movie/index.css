@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 63, 63);
+}
+
+.header{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 80%;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding-left: 6px;
+    height: 35px;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+button{
+    width: 15%;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #fca049;
+
+}
+
+button:hover{
+    background-color: #ff800a;
+}
+
+#mov-img{
+    height: 420px;
+    border: 4px solid white;
+    border-radius: 8px;
+}
+
+#main-body{
+    height: 100%;
+}
+
+#movie-box{
+    height: 40%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#movie-details{
+    margin-left: 150px;
+    width: 450px;
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+
+#movie-details h1{
+    color: rgb(252, 185, 50);
+    margin-block: 10px;
+    text-transform: capitalize;
+}
+
+.sc{
+    color: rgb(255, 255, 255);
+    margin-right: 12px;
+}
+
+#second-line{
+    margin-block: 16px;
+
+}
+
+.Plot, .Writer, #lang-par, #lang-par{
+    margin-block: 12px;
+}
+
+#Genere{
+    border: 1px solid rgb(85, 84, 84);
+    padding: 5px;
+    background-color: rgb(50, 44, 44);
+    margin-block: 12px;
+    border-radius: 8px;
+}
+
+#Plot,#Writer{
+    font-weight: bold;
+}
+
+#lang-par{
+    font-style: italic;
+    color: rgb(252, 185, 50);
+
+}
+
+#lang{
+    font-weight: bold;
+}
+
+@media (max-width: 590px) {
+
+    #movie-box{
+        flex-direction: column;
+
+    }#movie-details{
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 110px;
+
+    }#movie-details h1{
+        font-size: larger;
+
+    }
+}
+
+#headre-movie{
+    width: 300px;
+    display: flex;
+    /* justify-content: c; */
+    align-items: center;
+    height: 100px;
+    margin-top: 10px;
+    margin-top: 40px;
+    margin-inline: 40%;
+    border-radius: 6px ;
+    border: 4px solid #fca049;
+}
+
+#movie-list{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#movie-list img{
+    height: 70px;
+}

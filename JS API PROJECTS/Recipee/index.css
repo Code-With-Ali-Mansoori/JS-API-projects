@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: brown;
+    color: white;
+}
+
+nav{
+    background-color: rgb(43, 41, 41);
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    position: relative;
+    left: 25px;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 700;
+    letter-spacing:  2px;
+}
+
+nav .input{
+    position: relative;
+    right: 60px;
+    width: 35%;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .input input {
+    width: 70%;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+nav .input input[type = 'text']{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+#button{
+    width: 80px;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgb(243, 145, 53);
+}
+
+#button:hover,.btn-recipee:hover{
+    background-color: rgb(249, 153, 64);
+}
+
+#App-Body{
+    margin-top: 30px;
+
+}
+
+#App-Body h2{
+    text-align: center;
+    font-size: larger;
+    margin: 16px;
+}
+
+@media screen and (max-width:590px){
+    nav {
+        flex-direction: column;
+        height: 90px;
+        align-items: center;
+    }
+    nav h1{
+        margin-bottom: 15px;
+    }   
+
+}
+
+.meal-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Recipee{
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 60px;
+    /* transition: transform .3s;                       */
+}
+/* Animation */
+
+/* .Recipee:hover{
+    transform: scale(1.1);
+} */
+
+img{
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn-recipee{
+    height: 60px;
+    width: 150px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+    background-color: rgb(243, 145, 53);
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+#recipee-video{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    /* margin-left: 25px; */
+
+}
+
+.recipee-details{
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 60%;
+    width: 40%;
+    display: block;
+    padding: 30px;
+    background-color: rgb(43, 41, 41);
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    scrollbar-width: 10px;
+    overflow-y: scroll;
+    transform: translate(-50%,-50%);
+    margin-top: 120px;
+}
+
+.recipee-details h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 16px;
+}
+
+.recipee-details h3{
+    margin-top: 10px;
+}
+
+.close{
+    width: 90px;
+    font-size: large;
+    border: none;
+    background-color: rgb(243, 145, 53);
+    color: white;
+    border-radius: 10px;
+    height: 45px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+

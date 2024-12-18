@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather App (API Project)</title>
+    <link rel="stylesheet" href="wheatherStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<body>
+
+    <div class="container">
+        <div class="header">
+            <input id="head-input" placeholder="Enter Your Location"></input>
+            <button id="head-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="weather-img">
+            <img src="/weather/Not found.avif" id="icon" class="Image-icon"></img>
+        </div>
+
+        <div class="weather">
+            <div class="wheather-body">
+                <p id="temperture" 
+                style="font-weight: 700; 
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: x-large;
+                ">0<sup>°</sup>C</p>
+                <p style="text-transform: capitalize; font-weight: 600; 
+                font-family: Arial, Helvetica, sans-serif;" id="discription">Discription</p>
+            </div>
+            
+            <div class="wheather-detail">
+                <div id="humid">
+                    <span><i class="fa-solid fa-droplet"></i></span>
+                    <div>
+                        <p style="font-weight: 700" id="Humidity">0%</p>
+                        <p>Humidity</p>
+                    </div>
+    
+                </div>
+                <div id="wind">
+                    <span><i class="fa-solid fa-wind"></i></span>
+                    <div>
+                        <p style="font-weight: 700" id="speed">0Km/H</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <!-- <div class="wheather-body">
+            <p id="temperture" 
+            style="font-weight: 700; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: x-large;
+            ">0<sup>°</sup>C</p>
+            <p style="text-transform: capitalize; font-weight: 600; 
+            font-family: Arial, Helvetica, sans-serif;" id="discription">Discription</p>
+        </div>
+        
+        <div class="wheather-detail">
+            <div id="humid">
+                <span><i class="fa-solid fa-droplet"></i></span>
+                <div>
+                    <p style="font-weight: 700" id="Humidity">0%</p>
+                    <p>Humidity</p>
+                </div>
+
+            </div>
+            <div id="wind">
+                <span><i class="fa-solid fa-wind"></i></span>
+                <div>
+                    <p style="font-weight: 700" id="speed">0Km/H</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+
+        </div> -->
+    </div>
+
+<script src="wheather.js"></script>    
+</body>
+</html>
